@@ -1,0 +1,368 @@
+[18:15:29] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.13.1
+[18:15:30] [main/INFO]: Loading 41 mods:
+	- cardboard 50
+	- com_github_isaiahpatton_specialsource master-SNAPSHOT via cardboard
+	- fabric 0.46.4+1.18
+	- fabric-api-base 0.4.2+d7c144a865 via fabric
+	- fabric-api-lookup-api-v1 1.5.3+d7c144a865 via fabric
+	- fabric-biome-api-v1 6.0.2+d7c144a865 via fabric
+	- fabric-command-api-v1 1.1.7+d7c144a865 via fabric
+	- fabric-commands-v0 0.2.6+b4f4f6cd65 via fabric
+	- fabric-containers-v0 0.1.19+d7c144a865 via fabric
+	- fabric-content-registries-v0 0.4.8+d7c144a865 via fabric
+	- fabric-crash-report-info-v1 0.1.9+3ac43d9565 via fabric
+	- fabric-dimensions-v1 2.1.10+a1d9bbf565 via fabric
+	- fabric-entity-events-v1 1.4.6+d7c144a865 via fabric
+	- fabric-events-interaction-v0 0.4.17+d7c144a865 via fabric
+	- fabric-events-lifecycle-v0 0.2.9+d7c144a865 via fabric
+	- fabric-game-rule-api-v1 1.0.11+d7c144a865 via fabric
+	- fabric-item-api-v1 1.3.1+691a79b565 via fabric
+	- fabric-item-groups-v0 0.3.6+3ac43d9565 via fabric
+	- fabric-lifecycle-events-v1 1.4.13+713c266865 via fabric
+	- fabric-loot-tables-v1 1.0.9+d7c144a865 via fabric
+	- fabric-mining-level-api-v1 1.0.6+d7c144a865 via fabric
+	- fabric-mining-levels-v0 0.1.11+b4f4f6cd65 via fabric
+	- fabric-networking-api-v1 1.0.19+d7c144a865 via fabric
+	- fabric-networking-v0 0.3.6+b4f4f6cd65 via fabric
+	- fabric-object-builder-api-v1 1.11.4+d7c144a865 via fabric
+	- fabric-object-builders-v0 0.7.12+d7c144a865 via fabric
+	- fabric-particles-v1 0.2.10+526dc1ac65 via fabric
+	- fabric-registry-sync-v0 0.9.2+ad01bfbd65 via fabric
+	- fabric-rendering-data-attachment-v1 0.3.5+d7c144a865 via fabric
+	- fabric-rendering-fluids-v1 0.1.19+3ac43d9565 via fabric
+	- fabric-resource-conditions-api-v1 1.0.2+d7c144a865 via fabric
+	- fabric-resource-loader-v0 0.4.14+713c266865 via fabric
+	- fabric-screen-handler-api-v1 1.1.12+d7c144a865 via fabric
+	- fabric-structure-api-v1 2.1.3+d7c144a865 via fabric
+	- fabric-tag-extensions-v0 1.2.8+d7c144a865 via fabric
+	- fabric-tool-attribute-api-v1 1.3.8+fb3b57b465 via fabric
+	- fabric-transfer-api-v1 1.5.9+d7c144a865 via fabric
+	- fabricloader 0.13.1
+	- icommon 1.18
+	- java 17
+	- minecraft 1.18.1
+[18:15:30] [main/WARN]: Mod `com_github_isaiahpatton_specialsource` (master-SNAPSHOT) does not respect SemVer - comparison support is limited.
+[18:15:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/ezvacss/Desktop/servermine/libraries/net/fabricmc/sponge-mixin/0.11.1+mixin.0.8.5/sponge-mixin-0.11.1+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[18:15:30] [main/INFO]: Compatibility level set to JAVA_16
+[18:15:30] [main/INFO]: Please wait, Scanning plugins for events...
+[18:15:31] [main/INFO]: Found: 27 (Took: 873ms)
+[18:15:31] [main/INFO]: Loading Libraries...
+[18:15:31] [main/INFO]: Debug: Loading library paper-api-1.17-dev.jar
+[18:15:31] [main/INFO]: Debug: Loading library sqlite-jdbc-3.21.0.1.jar
+[18:15:31] [main/INFO]: Debug: Loading library mysql-connector-java-5.1.46.jar
+[18:15:31] [main/INFO]: Debug: Loading library commons-lang-2.6.jar
+[18:15:31] [main/INFO]: Debug: Loading library commons-collections4-4.4.jar
+[18:15:31] [main/INFO]: Debug: Loading library commons-collections-3.2.1.jar
+[18:15:33] [main/INFO]: =======================================================
+[18:15:33] [main/INFO]:  iCommon - Isaiah's common library for mods.
+[18:15:33] [main/INFO]:  Copyright (c) 2018-2021 by Isaiah. Running on MC 1.18.1
+[18:15:33] [main/INFO]: =======================================================
+[18:15:33] [main/INFO]: Applying mixin: MixinMinecraftServer...
+[18:15:33] [main/INFO]: Applying mixin: R1_18.MixinEntity...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinPlayer...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinBlockEntity...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinChestBlockEntity...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinCampfireBlockEntity...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinScreenHandler...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinChunkGenerator...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinPersistentStateManager...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinPlayerManager...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinHeighttmap...
+[18:15:34] [main/INFO]: Applying mixin: R1_18.MixinWorld_18...
+[18:15:43] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zgf000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18:15:46] [main/INFO]: 
+[18:15:47] [main/INFO]: Cardboard - CardboardPowered.org
+[18:15:47] [main/INFO]: 
+[18:15:47] [main/INFO]: Registered '5' iCommon events.
+[18:15:49] [main/INFO]: Reflection working: false
+[18:15:49] [main/INFO]: Cardboard mod Loaded.
+[18:15:50] [main/INFO]: iCommon Mod initialized.
+[18:15:51] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:15:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:15:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:15:53] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:15:53] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:15:53] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:15:53] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), player head drops v1.1.0.zip, wandering trades v1.4.0.zip
+[18:15:54] [Worker-Main-4/INFO]: Loaded 7 recipes
+[18:15:54] [Worker-Main-4/INFO]: Loaded 7 recipes
+[18:15:55] [Worker-Main-4/INFO]: Loaded 1144 advancements
+[18:15:58] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 5.377 ms
+[18:15:58] [Server thread/INFO]: Setting IServer instance..
+[18:15:58] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[18:15:59] [Server thread/INFO]: Loading properties
+[18:15:59] [Server thread/INFO]: Default game type: CREATIVE
+[18:15:59] [Server thread/INFO]: Generating keypair
+[18:15:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:15:59] [Server thread/INFO]: Using default channel type
+[18:16:00] [Server thread/INFO]: This server is running Cardboard version git-6ef04ce (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT)
+[18:16:00] [Server thread/INFO]: Debug logging is disabled
+[18:16:00] [Server thread/INFO]: Loading Bukkit plugins...
+[18:16:00] [Server thread/INFO]: Remapping "plugins\ArmorStandAdjustor-1.6.jar"...
+[18:16:02] [Server thread/INFO]: Remapping "plugins\BungeeTabListPlus-3.4.4.jar"...
+[18:16:08] [Server thread/INFO]: Remapping "plugins\Chatty.jar"...
+[18:16:10] [Server thread/INFO]: Remapping "plugins\SurvivalInvisiframes.jar"...
+[18:16:10] [Server thread/INFO]: Remapping "plugins\Chatty.jar"...
+[18:16:11] [Server thread/INFO]: [STDOUT]: net/minecraft/class_2535
+[18:16:11] [Server thread/INFO]: Remapping "plugins\SurvivalInvisiframes.jar"...
+[18:16:11] [Server thread/INFO]: Remapping "plugins\ArmorStandAdjustor-1.6.jar"...
+[18:16:12] [Server thread/INFO]: Remapping "plugins\BungeeTabListPlus-3.4.4.jar"...
+[18:16:16] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:16:22] [Server thread/WARN]: Legacy plugin BungeeTabListPlus v3.4.4 does not specify an api-version.
+[18:16:22] [Server thread/FATAL]: Could not load 'plugins\BungeeTabListPlus-3.4.4.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:121) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:120) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:397) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at net.minecraft.class_3176.handler$zza000$init(class_3176.java:760) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:657) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:162) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:103) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:88) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:66) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:117) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	... 9 more
+[18:16:22] [Server thread/INFO]: Loading Chatty v2.19.5
+[18:16:22] [Server thread/INFO]: Loading SurvivalInvisiframes v2.1.0
+[18:16:22] [Server thread/INFO]: Loading ArmorStandAdjustor v1.6
+[18:16:22] [Server thread/INFO]: 
+[18:16:22] [Server thread/INFO]: Preparing level "world"
+[18:16:22] [Server thread/INFO]: Setting IWorld for world "world"
+[18:16:22] [Server thread/INFO]: Setting IWorld for world "world_nether"
+[18:16:22] [Server thread/INFO]: Setting IWorld for world "world_the_end"
+[18:16:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:16:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:24] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:16:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:16:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:16:31] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[18:16:31] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[18:16:32] [Worker-Main-6/INFO]: Preparing spawn area: 7%
+[18:16:32] [Worker-Main-4/INFO]: Preparing spawn area: 14%
+[18:16:33] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[18:16:33] [Worker-Main-4/INFO]: Preparing spawn area: 27%
+[18:16:34] [Worker-Main-5/INFO]: Preparing spawn area: 32%
+[18:16:34] [Worker-Main-6/INFO]: Preparing spawn area: 35%
+[18:16:35] [Worker-Main-6/INFO]: Preparing spawn area: 36%
+[18:16:36] [Worker-Main-5/INFO]: Preparing spawn area: 36%
+[18:16:36] [Worker-Main-5/INFO]: Preparing spawn area: 36%
+[18:16:36] [Worker-Main-6/INFO]: Preparing spawn area: 36%
+[18:16:37] [Worker-Main-6/INFO]: Preparing spawn area: 36%
+[18:16:37] [Worker-Main-4/INFO]: Preparing spawn area: 36%
+[18:16:38] [Worker-Main-5/INFO]: Preparing spawn area: 38%
+[18:16:38] [Worker-Main-6/INFO]: Preparing spawn area: 39%
+[18:16:39] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[18:16:39] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[18:16:40] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[18:16:40] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[18:16:41] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[18:16:42] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[18:16:42] [Worker-Main-4/INFO]: Preparing spawn area: 39%
+[18:16:42] [Worker-Main-4/INFO]: Preparing spawn area: 39%
+[18:16:43] [Worker-Main-4/INFO]: Preparing spawn area: 39%
+[18:16:43] [Worker-Main-4/INFO]: Preparing spawn area: 54%
+[18:16:44] [Worker-Main-6/INFO]: Preparing spawn area: 60%
+[18:16:45] [Worker-Main-4/INFO]: Preparing spawn area: 67%
+[18:16:45] [Worker-Main-4/INFO]: Preparing spawn area: 67%
+[18:16:45] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[18:16:46] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[18:16:46] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[18:16:47] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[18:16:47] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[18:16:48] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[18:16:48] [Worker-Main-5/INFO]: Preparing spawn area: 69%
+[18:16:49] [Worker-Main-5/INFO]: Preparing spawn area: 70%
+[18:16:49] [Worker-Main-5/INFO]: Preparing spawn area: 71%
+[18:16:50] [Worker-Main-6/INFO]: Preparing spawn area: 73%
+[18:16:50] [Worker-Main-4/INFO]: Preparing spawn area: 74%
+[18:16:51] [Worker-Main-5/INFO]: Preparing spawn area: 75%
+[18:16:51] [Worker-Main-6/INFO]: Preparing spawn area: 77%
+[18:16:52] [Worker-Main-6/INFO]: Preparing spawn area: 78%
+[18:16:52] [Worker-Main-5/INFO]: Preparing spawn area: 79%
+[18:16:53] [Worker-Main-4/INFO]: Preparing spawn area: 82%
+[18:16:53] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[18:16:54] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[18:16:54] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[18:16:55] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[18:16:55] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[18:16:56] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[18:16:56] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-6/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-6/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[18:17:00] [Worker-Main-5/INFO]: Preparing spawn area: 87%
+[18:17:01] [Worker-Main-4/INFO]: Preparing spawn area: 88%
+[18:17:01] [Worker-Main-6/INFO]: Preparing spawn area: 89%
+[18:17:02] [Worker-Main-4/INFO]: Preparing spawn area: 91%
+[18:17:02] [Worker-Main-6/INFO]: Preparing spawn area: 93%
+[18:17:03] [Worker-Main-5/INFO]: Preparing spawn area: 93%
+[18:17:03] [Worker-Main-6/INFO]: Preparing spawn area: 94%
+[18:17:04] [Worker-Main-5/INFO]: Preparing spawn area: 96%
+[18:17:04] [Worker-Main-6/INFO]: Preparing spawn area: 96%
+[18:17:05] [Worker-Main-5/INFO]: Preparing spawn area: 98%
+[18:17:05] [Server thread/INFO]: Time elapsed: 42963 ms
+[18:17:05] [Server thread/INFO]: Preparing start region for world minecraft:overworld
+[18:17:05] [Server thread/INFO]: Time elapsed: 3 ms
+[18:17:05] [Server thread/INFO]: Preparing start region for world minecraft:the_nether
+[18:17:08] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:09] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:09] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:09] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:09] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:09] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:10] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:11] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:11] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:12] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:12] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:13] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:14] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:14] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:14] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:15] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:15] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:16] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:16] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:17] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:17] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:18] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:18] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:19] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:19] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:20] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:21] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:21] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:22] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:22] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:23] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:23] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:24] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:24] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:25] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:25] [Server thread/INFO]: Time elapsed: 19582 ms
+[18:17:25] [Server thread/INFO]: Preparing start region for world minecraft:the_end
+[18:17:26] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:26] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:26] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:26] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:27] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:27] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:28] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:28] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:29] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:29] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:30] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:30] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:31] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[18:17:31] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:32] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:32] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[18:17:33] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[18:17:33] [Server thread/INFO]: Time elapsed: 8478 ms
+[18:17:33] [Server thread/INFO]: Enabling Chatty v2.19.5
+[18:17:35] [Server thread/INFO]: Enabling SurvivalInvisiframes v2.1.0
+[18:17:35] [Server thread/FATAL]: Cannot load plugins\SurvivalInvisiframes\config.yml
+org.bukkit.configuration.InvalidConfigurationException: null
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:546) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:188) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:157) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at com.darkender.plugins.survivalinvisiframes.SurvivalInvisiframes.reload(SurvivalInvisiframes.java:94) ~[?:?]
+	at com.darkender.plugins.survivalinvisiframes.SurvivalInvisiframes.onEnable(SurvivalInvisiframes.java:55) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:257) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:306) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:485) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:416) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zzb000$afterWorldLoad(MinecraftServer.java:1902) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:342) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:182) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:657) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[18:17:35] [Server thread/FATAL]: Cannot load configuration from stream
+org.bukkit.configuration.InvalidConfigurationException: null
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:546) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:217) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:163) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at com.darkender.plugins.survivalinvisiframes.SurvivalInvisiframes.reload(SurvivalInvisiframes.java:94) ~[?:?]
+	at com.darkender.plugins.survivalinvisiframes.SurvivalInvisiframes.onEnable(SurvivalInvisiframes.java:55) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:257) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:306) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:485) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:416) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zzb000$afterWorldLoad(MinecraftServer.java:1902) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:342) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:182) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:657) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[18:17:37] [Server thread/FATAL]: Error occurred while enabling SurvivalInvisiframes v2.1.0 (Is it up to date?)
+java.lang.IllegalArgumentException: Cannot have null choice
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.0.1-jre.jar:?]
+	at org.bukkit.inventory.RecipeChoice$ExactChoice.<init>(RecipeChoice.java:168) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.inventory.RecipeChoice$ExactChoice.<init>(RecipeChoice.java:157) ~[paper-api-1.17-dev.jar:?]
+	at com.darkender.plugins.survivalinvisiframes.SurvivalInvisiframes.reload(SurvivalInvisiframes.java:117) ~[?:?]
+	at com.darkender.plugins.survivalinvisiframes.SurvivalInvisiframes.onEnable(SurvivalInvisiframes.java:55) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:257) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:306) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.17-dev.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:485) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:416) ~[Cardboard-1.17-1.18%20(1).jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zzb000$afterWorldLoad(MinecraftServer.java:1902) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:342) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(class_3176.java:182) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:657) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[18:17:37] [Server thread/INFO]: Enabling ArmorStandAdjustor v1.6
+[18:17:37] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:17:37] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:17:37] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:17:37] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:17:37] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:17:37] [Server thread/INFO]: Done (75.399s)! For help, type "help"
+[18:17:37] [Server thread/INFO]: Starting remote control listener
+[18:17:37] [Server thread/INFO]: Thread RCON Listener started
+[18:17:37] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[18:17:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2372ms or 47 ticks behind
+[18:17:54] [Server thread/INFO]: Disabling ArmorStandAdjustor v1.6
+[18:17:54] [Server thread/INFO]: Disabling SurvivalInvisiframes v2.1.0

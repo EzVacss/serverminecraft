@@ -1,0 +1,1 @@
+java -Xms1024M -Xmx2048M -jar fabric-server-mc.1.18.1-loader.0.13.1-launcher.0.10.2.jar nogui
